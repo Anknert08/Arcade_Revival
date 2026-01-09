@@ -3,10 +3,17 @@
     display: grid;
     grid-template-rows: 60px 25px 1fr 20px;
     grid-template-columns: 100%;
-
 }
-#container_nav{
+header{
+    grid-row: 1 / 2;
+}
+nav{
+    grid-row: 2 / 3;
+}
+footer{
+    grid-row: 4 / 5;
+}
+nav>ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;   
 }
