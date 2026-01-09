@@ -1,5 +1,8 @@
+body{
+    min-height: 100%;
+}
 #grid{
-    height: 100%;
+    min-height:100%;
     display: grid;
     grid-template-rows: 60px 25px 1fr 20px;
     grid-template-columns: 100%;
@@ -12,6 +15,9 @@ nav{
 }
 main{
     grid-row: 3 / 4;
+}
+.button_container{
+    display: grid;
 }
 footer{
     grid-row: 4 / 5;
