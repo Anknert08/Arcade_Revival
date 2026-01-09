@@ -10,6 +10,9 @@ header{
 nav{
     grid-row: 2 / 3;
 }
+main{
+    grid-row: 3 / 4;
+}
 footer{
     grid-row: 4 / 5;
 }
