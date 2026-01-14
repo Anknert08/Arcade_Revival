@@ -27,6 +27,20 @@ main{
     grid-template-rows: auto auto auto;
     grid-template-columns: 100%;
 }
+.kontakt{
+    grid-row: 2 / 3;
+    grid-column: 1;
+    text-align: center;
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    margin-top: 80px;
+}
+.hitta{
+    grid-row: 1/2;
+    grid-column:1;
+    text-align: center;
+}
 footer{
     grid-row: 4 / 5;
 }
@@ -41,15 +55,6 @@ h1{
 }
 .footer{
     text-align: center;
-}
-.kontakt{
-    grid-row: 2 / 3;
-    grid-column: 1;
-    text-align: center;
-    width: 500px;
-    height: 450px;
-    margin: auto;
-    margin-top: 80px;
 }
 #scanlines{
     background-image: url("depositphotos_70011155-stock-illustration-dark-stripes-background-with-lines.jpg");
