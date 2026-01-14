@@ -1,0 +1,88 @@
+.SR {
+
+text-align: center;
+color: red;
+font-size: 30px;
+}
+
+.rutor {
+
+
+
+th:nth-child(4){ color:red; } 
+color:azure;
+border-collapse: collapse;
+;
+
+table,th,td{
+	border: 1px solid black; 
+	border-collapse: collapse;
+}
+}
+
+
+
+body {
+
+    background-color: gray;
+}
+
+.block {
+
+text-align: center;
+background-color: darkgrey;
+width: 500px;
+height: 450px;
+margin: auto;
+margin-top: 80px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+  }
+
+
+
+
+
+
+  .gps {
+
+text-align: center;
+background-color: aliceblue;
+width: 500px;
+height: 300px;
+margin: auto;
+margin-top: 80px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+  }
+
+.karta {
+
+background-color: gray;
+margin: auto;
+width: 350px;
+height: 120px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+
+.slut {
+margin-top: 80px;
+
+text-align: center;
+background-color: lightgray;
+height: 120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
