@@ -25,10 +25,26 @@ nav{
 }
 ul{
     padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+li:hover{
+    border-color: rgb(255, 111, 0);
+    color:blue;
+}
+.active{
+    border-color: chartreuse;
+}
+a{
+    text-decoration: none;
+    color: yellow;
 }
 li{
     border: 5px solid;
-    border-color: brown;
+    border-color: rgb(60, 0, 255);
+    margin: 0;
+    padding:5px;
+    border-collapse: collapse;
 }
 main{
     grid-row: 3 / 4;
@@ -110,6 +126,7 @@ h1{
     background-position: top;
     background-attachment: fixed;
     background-size: cover;
+    opacity: 100%;
 }
 #Galax_Fighter{
     grid-column: 1/2;
