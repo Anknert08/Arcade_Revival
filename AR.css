@@ -17,11 +17,13 @@ header{
     position: sticky;
 }
 h1{
-    margin: 5px;
+    margin: 10px;
+    font-size: 50px;
 }
 nav{
     grid-row: 2 / 3;
     background-color: black;
+    font-size: 1.3em;
 }
 ul{
     padding: 0;
@@ -32,12 +34,18 @@ li:hover{
     border-color: rgb(255, 111, 0);
     color:blue;
 }
+li:hover a{
+    color:rgb(255, 111, 0);
+    animation: blink 0.8s infinite;
+}
+
 .active{
     border-color: chartreuse;
 }
 a{
     text-decoration: none;
     color: yellow;
+    font-family: monospace;
 }
 li{
     border: 5px solid;
@@ -69,12 +77,21 @@ button#arcade-button{
 #öppettider{
     grid-row: 2/3;
     grid-column: 1/2;
+    text-align: center;
     align-self: left;
+    margin-left: 20vw;
+    margin-right: 5vw ;
+    margin-bottom:10vh;
+    border: 10px solid;
+    background-color: white;
 }
 #klassiker{
     grid-row: 2/3;
     grid-column: 2/3;
     align-items: right;
+    margin-right:20vw;
+    border: 10px solid;
+    background-color: white;
 }
 #boxes{
     height: 100%;
@@ -181,4 +198,15 @@ img.spel{
     width: 500px;
     height: auto;
     justify-self: center;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
 }
