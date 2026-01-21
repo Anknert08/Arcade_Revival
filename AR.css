@@ -12,6 +12,7 @@ body{
 header{
     grid-row: 1 / 2;
     color: rgb(255, 0, 25);
+    text-shadow: 0 0 8px rgb(255, 0, 25);
     background-color: black;
 }
 #top{
@@ -20,6 +21,7 @@ header{
     position: sticky;
     grid-template-columns: 100%;
     grid-template-rows:auto auto;
+    background-color: black;
 }
 h1{
     margin: 10px;
