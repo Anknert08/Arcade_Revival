@@ -250,16 +250,6 @@ img.spel{
   100% { opacity: 1; }
 }
 
-@keyframes flicker {
-  0% { opacity: 1; }
-  50% { opacity: 0.95; }
-  100% { opacity: 1; }
-}
-
-.highscore-sida {
-  animation: flicker 0.15s infinite;
-}
-
 @keyframes blink {
     0% {
         opacity: 1;
