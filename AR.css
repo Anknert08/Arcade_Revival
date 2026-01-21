@@ -21,6 +21,7 @@ header{
     position: sticky;
     grid-template-columns: 100%;
     grid-template-rows:auto auto;
+    background-color: black;
 }
 h1{
     margin: 10px;
