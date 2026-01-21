@@ -81,6 +81,7 @@ button#arcade-button{
     font-size: 50px;
     background-color: red;
     border-radius: 20px;
+    
 }
 #öppettider{
     grid-row: 2/3;
