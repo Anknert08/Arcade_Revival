@@ -199,6 +199,31 @@ img.spel{
     height: auto;
     justify-self: center;
 }
+.highscore-sida {
+  text-align: center;
+  padding: 20px;
+}
+
+.highscore-sida h1 {
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff;
+}
+.highscore-sida table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 900px;
+  background-color: #ffffff;
+}
+
+.highscore-sida td {
+  border: 2px solid #00ff66;
+  padding: 12px;
+}
+
+.highscore-sida th {
+  background-color: #003300;
+}
 @keyframes blink {
     0% {
         opacity: 1;
