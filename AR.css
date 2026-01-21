@@ -200,20 +200,25 @@ img.spel{
     justify-self: center;
 }
 .highscore-sida {
+    background-color: black;
+    height: 1000px;
+    color:#00ff66
+}
+.highscore-sida {
   text-align: center;
   padding: 20px;
 }
 
 .highscore-sida h1 {
   color: #00ffff;
-  text-shadow: 0 0 8px #00ffff;
+  text-shadow: 0 0 8px #00ff0d;
 }
 .highscore-sida table {
   margin: 0 auto;
   border-collapse: collapse;
   width: 90%;
   max-width: 900px;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .highscore-sida td {
