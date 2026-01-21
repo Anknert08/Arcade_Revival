@@ -160,7 +160,8 @@ text-shadow: #00ff66;
     font-size: 1.5em;
 }
 .hitta p{
-    rotate: 5deg;
+    display: inline;
+    font-style: italic;
 }
 footer{
     grid-row: 4 / 5;
