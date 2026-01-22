@@ -157,18 +157,11 @@ text-shadow: #00ff66;
     grid-column:1;
     text-align: center;
     color: red;
-<<<<<<< HEAD
-    animation: blink 0.8s infinite;
-    text-shadow: 0 0 8px rgb(255, 0, 25);
-    font-size: 2em;
-
-=======
     font-size: 1.5em;
 }
 .hitta p{
     display: inline;
     font-style: italic;
->>>>>>> eefbff4954eec903c8a6dab1f286cfdcbda4f615
 }
 footer{
     grid-row: 4 / 5;
